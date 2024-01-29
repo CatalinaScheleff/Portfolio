@@ -1,12 +1,12 @@
-import { HomeCon, HomeTextCon, Title, TitleCon } from "../components/home/HomeElements"
+import { HomeCon, HomeTextCon, HomeTitle, HomeTitleCon } from "../components/home/HomeElements"
 
 export const Home = () => {
     return (
         <>
         <HomeCon>
-            <TitleCon>
-                <Title>Wellcome to my Portfolio!</Title>
-            </TitleCon>
+            <HomeTitleCon>
+                <HomeTitle>Wellcome to my Portfolio!</HomeTitle>
+            </HomeTitleCon>
             <HomeTextCon>
                 
             </HomeTextCon>
