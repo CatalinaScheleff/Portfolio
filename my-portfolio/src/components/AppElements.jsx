@@ -17,5 +17,8 @@ background-color: black;
 
 export const ContentCon = styled.div`
   background-color: yellow;
+  display: grid;
+  place-items: center;
+  
 `
 

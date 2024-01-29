@@ -3,7 +3,7 @@ import { FooterCon } from "./FooterElements"
 
 export const Footer = () => {
     return (
-        <FooterCon>
+        <FooterCon id="FooterCon">
             FOOTER
         </FooterCon>
     )
