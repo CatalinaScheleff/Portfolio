@@ -10,7 +10,7 @@ background-color: black;
   /* grid-template-areas:  'navbar'
                         'content'
                         'footer'; */
-  grid-template-rows: 10% auto 10%;
+  grid-template-rows: 80px auto 80px;
   margin: 0;
   
 `;

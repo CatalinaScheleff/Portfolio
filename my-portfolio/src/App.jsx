@@ -6,6 +6,7 @@ import { BackgroundCon, ContentCon } from "./components/AppElements";
 import { Navbar } from "./components/navbar/navbar";
 import { Footer } from "./components/footer/footer";
 import { Home } from "./pages/home";
+import { Work } from "./pages/work";
 
 
 function App() {
@@ -17,10 +18,8 @@ function App() {
         <Navbar/>
         <ContentCon id="ContentCon">
           <Routes>
-            <Route path="/" element={<Home/>}>
-
-            </Route>
-
+            <Route path="/" element={<Home/>}/>
+            <Route path="/work" element={<Work/>}/>
           </Routes>
 
         </ContentCon>
