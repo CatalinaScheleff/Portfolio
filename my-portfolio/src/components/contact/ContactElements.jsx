@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const AboutCon = styled.div`
+export const ContactCon = styled.div`
   background-color: green;
   min-height: 90%;
   width: 90vw;
@@ -15,14 +15,14 @@ export const AboutCon = styled.div`
   }
 `;
 
-export const AboutTitleCon = styled.div`
+export const ContactTitleCon = styled.div`
   background-color: brown;
   grid-area: title;
   display: grid;
   padding: 10px;
 `;
 
-export const AboutTitle = styled.h1`
+export const ContactTitle = styled.h1`
   background-color: lightblue;
   font-size: 5vw;
   @media (max-width: 700px) {
@@ -30,25 +30,24 @@ export const AboutTitle = styled.h1`
   }
 `;
 
-export const AboutTextCon = styled.div`
+export const ContactTextCon = styled.div`
   background-color: purple;
   grid-area: content;
   display: grid;
   place-items: center;
 `;
 
-export const AboutText = styled.div`
+export const ContactText = styled.div`
   background-color: antiquewhite;
   margin: 3%;
   width: 70%;
-  height: fit-content;
+  height: 400px;
   display: grid;
   place-items: center;
   padding: 2%;
-  min-width: 250px;
 `;
 
-export const AboutP = styled.p`
+export const ContactP = styled.p`
   background-color: grey;
   font-size: 2em;
   /* min-width:200px; */
