@@ -30,29 +30,32 @@ export const ContactTitle = styled.h1`
   }
 `;
 
-export const ContactTextCon = styled.div`
+export const ContactFormCon = styled.div`
   background-color: purple;
   grid-area: content;
   display: grid;
   place-items: center;
+  padding: 3%;
 `;
 
-export const ContactText = styled.div`
-  background-color: antiquewhite;
-  margin: 3%;
-  width: 70%;
-  height: 400px;
+export const ContactIconsCon = styled.div`
+  background-color: beige;
+  width: 50vw;
+  height: 60px;
   display: grid;
-  place-items: center;
-  padding: 2%;
+  grid-template-areas: 'icon icon icon icon';
+  margin-top: 10px;
+  justify-content: space-around;
 `;
 
-export const ContactP = styled.p`
-  background-color: grey;
-  font-size: 2em;
-  /* min-width:200px; */
-  @media (max-width: 700px) {
-    font-size: 1em;
-  }
+
+export const IconButton = styled.button`
+   border: 1px solid black;
+  width: 60px;
+  height: 60px;
+  grid-area: icon;
+  padding: 5px
 `;
+
+
 
