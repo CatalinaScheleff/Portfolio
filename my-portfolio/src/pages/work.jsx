@@ -1,26 +1,28 @@
-import { WorkCon, WorkContent1, WorkContent2, WorkContent3, WorkContentCon, WorkMenuCon, WorkTitleCon } from "../components/work/WorkElements"
+import {
+  WorkCon,
+  WorkContent1,
+  WorkContent2,
+  WorkContent3,
+  WorkContentCon,
+  WorkMenuCon,
+  WorkTitle,
+  WorkTitleCon,
+} from "../components/work/WorkElements";
 
 export const Work = () => {
-    return (<>
-    <WorkCon id="WorkCon">
-        <WorkTitleCon>
-
+  return (
+    <>
+      <WorkCon id="WorkCon">
+        <WorkTitleCon id="WorkTitleCon">
+            <WorkTitle>Work</WorkTitle>
         </WorkTitleCon>
-        <WorkMenuCon>
-
-        </WorkMenuCon>
-        <WorkContentCon>
-            <WorkContent1>
-
-            </WorkContent1>
-            <WorkContent2>
-
-            </WorkContent2>
-            <WorkContent3>
-                
-            </WorkContent3>
+        <WorkMenuCon id="WorkMenuCon"></WorkMenuCon>
+        <WorkContentCon id="WorkContentCon">
+          <WorkContent1 id="WorkContent1"></WorkContent1>
+          <WorkContent2 id="WorkContent2"></WorkContent2>
+          <WorkContent3 id="WorkContent3"></WorkContent3>
         </WorkContentCon>
-
-    </WorkCon>
-    </>)
-}
+      </WorkCon>
+    </>
+  );
+};

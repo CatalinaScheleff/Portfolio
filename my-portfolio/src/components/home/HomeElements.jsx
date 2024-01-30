@@ -41,3 +41,5 @@ export const HomeText = styled.p`
     font-size: 1em;
   }
 `;
+
+
