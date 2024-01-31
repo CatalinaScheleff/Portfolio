@@ -36,6 +36,9 @@ export const ContactFormCon = styled.div`
   display: grid;
   place-items: center;
   padding: 3%;
+  @media (max-width: 700px) {
+    height: 500px;
+  }
 `;
 
 export const ContactIconsCon = styled.div`
