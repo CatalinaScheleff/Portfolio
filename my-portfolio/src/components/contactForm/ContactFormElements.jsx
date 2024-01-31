@@ -2,30 +2,33 @@ import styled from "styled-components";
 
 export const FormCon = styled.div`
   background-color: aquamarine;
-  width: 650px;
-  height: 300px;
+  width: 600px;
+  height: 350px;
   display: grid;
   grid-template-areas:
     "name email"
     "inputname inputemail"
     "message message"
-    "inputmessage inputmessage";
+    "inputmessage inputmessage"
+    "button button";
   grid-template-columns: 40% auto;
-  grid-template-rows: 15% 20% 15%;
+  grid-template-rows: 15% 20% 15% auto 15%;
   padding: 20px;
   box-sizing: border-box;
   @media (max-width: 700px) {
-    width: 80vw;
-    height: 100vw;
+    width: 250px;
+    height: 600px;
     grid-template-areas:
       "name" 
       "inputname" 
       "email"
       "inputemail"
       "message"
-      "inputmessage";
+      "inputmessage"
+      "button";
     grid-template-columns: auto;
-    grid-template-rows: 12% 20% 12% 20% 12%;
+    grid-template-rows: 7% 10% 7% 10% 7% auto 10%;
+    padding: 10px;
   }
 `;
 
@@ -55,10 +58,11 @@ export const InputNameCon = styled.div`
 
 export const InputName = styled.input`
   width: 90%;
-  height: 90%;
+  height: 83%;
   font-size: 1em;
+  padding-left: 10px;
   @media (max-width: 700px) {
-    width: 100%;
+    width: 95%;
   }
 `;
  
@@ -69,9 +73,13 @@ export const InputEmailCon = styled.div`
 `;
 
 export const InputEmail = styled.input`
-    width: 100%;
-  height: 90%;
+  width: 93.5%;
+  height: 50%;
   font-size: 1em;
+  padding: 10px;
+  @media (max-width: 700px) {
+    width: 91.5%;
+  }
 `;
 
 export const MessageCon = styled.div`
@@ -86,13 +94,36 @@ export const MessageCon = styled.div`
 export const MessageInputCon = styled.div`
   background-color: #514a4b;
   grid-area: inputmessage;
+  width: 96.5%;
   @media (max-width: 700px) {
     height: 80px;
   }
 `;
 
-export const InputMessage = styled.input`
-    width: 100%;
-  height: 90%;
+export const InputMessage = styled.textarea`
+  width: 100%;
+  height: 80%;
   font-size: 1em;
+  padding: 10px;
+  @media (max-width: 700px) {
+    width: 95.5%;
+    height: 230px;
+  }
+`;
+
+export const ButtonsCon = styled.div`
+background-color: brown;
+  grid-area: button;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
+  padding: 10px;
+`;
+
+export const SendButton = styled.button`
+width: 100px;
+`;
+
+export const ResetButton = styled.button`
+ width: 100px;
 `;

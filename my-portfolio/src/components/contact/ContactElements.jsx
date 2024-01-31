@@ -25,6 +25,7 @@ export const ContactTitleCon = styled.div`
 export const ContactTitle = styled.h1`
   background-color: lightblue;
   font-size: 5vw;
+  height: 6vw;
   @media (max-width: 700px) {
     font-size: 1.2em;
   }
@@ -36,8 +37,9 @@ export const ContactFormCon = styled.div`
   display: grid;
   place-items: center;
   padding: 3%;
+  box-sizing: border-box;
   @media (max-width: 700px) {
-    height: 500px;
+    height: 750px;
   }
 `;
 
@@ -49,6 +51,9 @@ export const ContactIconsCon = styled.div`
   grid-template-areas: 'icon icon icon icon';
   margin-top: 10px;
   justify-content: space-around;
+  @media (max-width: 700px) {
+    width: 90%;
+  }
 `;
 
 
@@ -58,6 +63,9 @@ export const IconButton = styled.button`
   height: 60px;
   grid-area: icon;
   padding: 5px;
+  @media (max-width: 700px) {
+    margin: 5px
+  }
 `;
 
 export const Icon = styled.img`
