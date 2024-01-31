@@ -54,7 +54,13 @@ export const IconButton = styled.button`
   width: 60px;
   height: 60px;
   grid-area: icon;
-  padding: 5px
+  padding: 5px;
+`;
+
+export const Icon = styled.img`
+  width:50px;
+  height: 50px;
+  object-fit: contain;
 `;
 
 
