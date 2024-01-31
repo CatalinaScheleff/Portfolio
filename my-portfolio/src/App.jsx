@@ -9,6 +9,7 @@ import { Home } from "./pages/home";
 import { Work } from "./pages/work";
 import { About } from "./pages/about";
 import { Contact } from "./pages/contact";
+import { Certification } from "./pages/certification";
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
             <Route path="/" element={<Home/>}/>
             <Route path="/work" element={<Work/>}/>
             <Route path="/about" element={<About/>}/>
+            <Route path="/certification" element={<Certification/>}/>
             <Route path="/contact" element={<Contact/>}/>
           </Routes>
         </ContentCon>
