@@ -30,9 +30,9 @@ export const ContactForm = () => {
         <MessageInputCon id="MessageInputCon">
           <InputMessage id="InputMessage" type="text" name="message" required />
         </MessageInputCon>
-        <ButtonsCon>
-          <SendButton>Send</SendButton>
-          <ResetButton>Reset</ResetButton>
+        <ButtonsCon id="ButtonsCon">
+          <SendButton id="SendButton" type="submit">Send</SendButton>
+          <ResetButton id="ResetButton" type="reset">Reset</ResetButton>
         </ButtonsCon>
       </FormCon>
     </form>

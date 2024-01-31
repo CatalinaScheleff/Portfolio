@@ -18,6 +18,7 @@ export const ContactCon = styled.div`
 export const ContactTitleCon = styled.div`
   background-color: brown;
   grid-area: title;
+  height: fit-content;
   display: grid;
   padding: 10px;
 `;
