@@ -50,7 +50,7 @@ export const CertificationContent = styled.div`
 `;
 
 export const CertificationImg = styled.img`
-  width: 80%;
+  width: 70%;
   min-width: 250px;
   @media (max-width: 700px) {
     width: 90%;

@@ -31,18 +31,18 @@ export const Contact = () => {
                     <Icon id="Icon" src={gmailLogo}/>
                 </IconButton>
              </Link>
-             <Link to={'https://github.com/CatalinaScheleff'} target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none'}}>
+             <Link to={'https://www.linkedin.com/in/catalina-scheleff-caceres/'} target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none'}}>
                 <IconButton>
                 <Icon id="Icon" src={linkedinLogo}/>
                 </IconButton>
              </Link>
-             <Link to={'https://www.linkedin.com/in/catalina-scheleff-caceres/'} target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none'}}>
+             <Link to={'https://github.com/CatalinaScheleff'} target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none'}}>
                 <IconButton >
                 <Icon id="Icon" src={githubLogo}/>
                 </IconButton>
              </Link>
             </ContactIconsCon>
-        </ContactFormCon>
+        </ContactFormCon> 
       </ContactCon>
     </>
   );
