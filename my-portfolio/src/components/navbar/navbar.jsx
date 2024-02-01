@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import { ContentP, HamburgerButton, HamburgerCon, HomeP, NavbarCon, NavbarIcon, NavbarIconButton, NavbarLeftCon, NavbarRightCon } from "./NavbarElements"
+import { ContentLink, HamburgerButton, HamburgerCon, HomeLink, NavbarCon, NavbarIcon, NavbarIconButton, NavbarLeftCon, NavbarRightCon } from "./NavbarElements"
 import linkedinLogo from "../../assets/linkedin-logo.png"
 import githubLogo from "../../assets/githubLogo.jpg"
 import { useState } from "react"
@@ -9,11 +9,11 @@ export const Navbar = () => {
     return (
         <NavbarCon id="NavbarCon">
             <NavbarLeftCon isOpen={isMenuOpen}>
-                <HomeP>Home</HomeP>
-                <ContentP>About</ContentP>
-                <ContentP>Work</ContentP>
-                <ContentP>Certification</ContentP>
-                <ContentP>Contact</ContentP>
+                <HomeLink to="/" onClick={() => setIsMenuOpen(!isMenuOpen)}>Home</HomeLink>
+                <ContentLink to="/about" onClick={() => setIsMenuOpen(!isMenuOpen)}>About</ContentLink>
+                <ContentLink to="/work" onClick={() => setIsMenuOpen(!isMenuOpen)}>Work</ContentLink>
+                <ContentLink to="/certification" onClick={() => setIsMenuOpen(!isMenuOpen)}>Certification</ContentLink>
+                <ContentLink to="/contact" onClick={() => setIsMenuOpen(!isMenuOpen)}>Contact</ContentLink>
             </NavbarLeftCon>
             <HamburgerCon>
             <HamburgerButton onClick={() => setIsMenuOpen(!isMenuOpen)}>

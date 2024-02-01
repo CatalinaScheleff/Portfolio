@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const NavbarCon = styled.div`
@@ -28,7 +29,8 @@ export const NavbarLeftCon = styled.div`
   }
 `;
 
-export const HomeP = styled.p`
+export const HomeLink = styled(Link)`
+text-decoration: none;
   font-weight: bold;
   font-size: 1.5em;
   margin-right: 1vw;
@@ -37,7 +39,8 @@ export const HomeP = styled.p`
   }
 `;
 
-export const ContentP = styled.p`
+export const ContentLink = styled(Link)`
+  text-decoration: none;
   font-size: 1.5em;
   margin-right: 1vw;
   @media (max-width: 700px) {
@@ -51,6 +54,10 @@ export const NavbarRightCon = styled.div`
   display: grid;
   grid-template-columns: auto auto;
   place-items: center;
+`;
+
+export const IconLink = styled(Link)`
+  text-decoration: none;
 `;
 
 export const NavbarIconButton = styled.button`
