@@ -36,7 +36,24 @@ export const WorkTitle = styled.h1`
 export const WorkMenuCon = styled.div`
 background-color: orange;
 grid-area: menu;
-  
+`; 
+
+export const MenuCon = styled.div`
+  background-color: #b02685;
+  display: grid;
+  padding: 20px;
+
+`;
+
+export const MenuButton = styled.button`
+  text-align: left;
+  height: 4vw;
+`;
+
+export const MenuA = styled.a`
+font-size: 1.2vw;
+margin-left: 0.5vw;
+text-decoration: none;
 `;
 
 export const WorkContentCon = styled.div`

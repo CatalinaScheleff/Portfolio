@@ -50,7 +50,7 @@ export const AboutText = styled.div`
 
 export const AboutP = styled.p`
   background-color: grey;
-  font-size: 2em;
+  font-size: 1.2vw;
   /* min-width:200px; */
   @media (max-width: 700px) {
     font-size: 1em;

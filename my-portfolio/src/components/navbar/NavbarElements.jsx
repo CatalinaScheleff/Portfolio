@@ -56,10 +56,6 @@ export const NavbarRightCon = styled.div`
   place-items: center;
 `;
 
-export const IconLink = styled(Link)`
-  text-decoration: none;
-`;
-
 export const NavbarIconButton = styled.button`
   width: 60px;
   height: 60px;
