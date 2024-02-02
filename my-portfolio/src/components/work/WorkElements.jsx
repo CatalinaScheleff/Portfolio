@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const WorkCon = styled.div`
   background-color: green;
@@ -22,6 +23,8 @@ export const WorkTitleCon = styled.div`
   background-color: brown;
   grid-area: title;
   display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
   padding: 10px;
 `;
 
@@ -33,27 +36,55 @@ export const WorkTitle = styled.h1`
   }
 `;
 
+export const CaretDown = styled(FontAwesomeIcon)`
+  font-size: 7vw;
+  margin-right: 4vw;
+  @media (min-width: 700px) {
+    display: none;
+  }
+`;
+
 export const WorkMenuCon = styled.div`
 background-color: orange;
 grid-area: menu;
+position: relative;
 `; 
 
 export const MenuCon = styled.div`
   background-color: #b02685;
   display: grid;
   padding: 20px;
-
+  position: fixed;
+  width: 20vw;
+  @media (max-width: 700px) {
+    display: ${(props) => (props.isOpen ? "grid" : "none")};
+    grid-template-columns: auto;
+    right: 5vw;
+    top: 150px;
+    background-color: #ff00ae;
+    z-index: 1;
+    padding: 10px 0 10px;
+    width: 60vw;
+  }
 `;
 
 export const MenuButton = styled.button`
   text-align: left;
   height: 4vw;
+font-size: 1.2vw;
+padding-left: 0.5vw;
+width: 100%;
+@media (max-width: 700px) {
+  text-align: end;
+  padding-right: 0.5vw;
+  height: 40px;
+  font-size: 4vw;
+}
 `;
 
 export const MenuA = styled.a`
-font-size: 1.2vw;
-margin-left: 0.5vw;
 text-decoration: none;
+
 `;
 
 export const WorkContentCon = styled.div`

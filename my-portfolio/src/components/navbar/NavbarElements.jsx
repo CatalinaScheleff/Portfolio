@@ -24,7 +24,7 @@ export const NavbarLeftCon = styled.div`
     right: 5vw;
     top: 80px;
     background-color: #ff00ae;
-    z-index: 1;
+    z-index: 2;
     padding: 10px 0 10px
   }
 `;
