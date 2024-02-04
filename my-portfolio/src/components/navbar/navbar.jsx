@@ -2,14 +2,35 @@ import { Link } from "react-router-dom"
 import { ContentLink, HamburgerButton, HamburgerCon, HamburguerIcon, HomeLink, NavbarCon, NavbarIcon, NavbarIconButton, NavbarLeftCon, NavbarRightCon } from "./NavbarElements"
 import linkedinLogo from "../../assets/linkedin-logo.png"
 import githubLogo from "../../assets/githubLogo.jpg"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { faBars } from "@fortawesome/free-solid-svg-icons"
 
 export const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
+
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            const navbarMenu = document.getElementById("NavbarLeftCon");
+            if (navbarMenu && !navbarMenu.contains(event.target) && isMenuOpen) {
+                setIsMenuOpen(false);
+            }
+        };
+
+        document.addEventListener("click", handleClickOutside);
+
+        return () => {
+            document.removeEventListener("click", handleClickOutside);
+        }
+    },[isMenuOpen]);
+
+    const handleHamburguerClick = (event) => {
+        event.stopPropagation();
+        setIsMenuOpen(!isMenuOpen);
+    }
+
     return (
         <NavbarCon id="NavbarCon">
-            <NavbarLeftCon isOpen={isMenuOpen}>
+            <NavbarLeftCon id="NavbarLeftCon" isOpen={isMenuOpen}>
                 <HomeLink to="/" onClick={() => setIsMenuOpen(!isMenuOpen)}>Home</HomeLink>
                 <ContentLink to="/about" onClick={() => setIsMenuOpen(!isMenuOpen)}>About</ContentLink>
                 <ContentLink to="/work" onClick={() => setIsMenuOpen(!isMenuOpen)}>Work</ContentLink>
@@ -17,7 +38,7 @@ export const Navbar = () => {
                 <ContentLink to="/contact" onClick={() => setIsMenuOpen(!isMenuOpen)}>Contact</ContentLink>
             </NavbarLeftCon>
             <HamburgerCon>
-            <HamburgerButton onClick={() => setIsMenuOpen(!isMenuOpen)}>
+            <HamburgerButton onClick={handleHamburguerClick}>
             <HamburguerIcon icon={faBars} />
     </HamburgerButton>
     </HamburgerCon>

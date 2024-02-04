@@ -69,13 +69,11 @@ export const CaretDownMenuCon = styled.div`
     display: ${(props) => (props.isOpen ? "grid" : "none")};
     grid-template-columns: auto;
     position: absolute;
-    top: 33%;
-    right: 5vw;  /* Ajusta según tus necesidades */
-    transform: translateY(-50%);
+    top: 23%;
+    right: 5vw; 
     z-index: 1;
     padding: 10px 0 10px;
     width: 60vw;
-    transition: right 0.3s;  /* Cambiado a right para la transición suave */
   }
 `;
 
