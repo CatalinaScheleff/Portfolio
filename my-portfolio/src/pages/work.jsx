@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import {
   CaretDown,
+  CaretDownMenuCon,
   MenuA,
   MenuButton,
   MenuCon,
@@ -20,8 +21,8 @@ export const Work = () => {
 
   useEffect(() => {
     const handleClickOutside = (event) => {
-      const workMenu = document.getElementById("WorkMenuCon");
-      if (workMenu && !workMenu.contains(event.target)) {
+      const workMenu = document.getElementById("CaretDownMenuCon");
+      if (workMenu && !workMenu.contains(event.target) && isMenuOpen) {
         setIsMenuOpen(false);
       }
     };
@@ -44,11 +45,8 @@ export const Work = () => {
         <WorkTitleCon id="WorkTitleCon">
           <WorkTitle>Work</WorkTitle>
           <CaretDown icon={faAngleDown} onClick={handleCaretDownClick} />
-        </WorkTitleCon>
-
-        <WorkMenuCon id="WorkMenuCon">
           {isMenuOpen && (
-            <MenuCon isOpen={isMenuOpen}>
+            <CaretDownMenuCon id="CaretDownMenuCon" isOpen={isMenuOpen}>
               <MenuA href="#WorkContent1" onClick={() => setIsMenuOpen(!isMenuOpen)}>
                 <MenuButton>Inspirational Quote Generator</MenuButton>
               </MenuA>
@@ -58,8 +56,22 @@ export const Work = () => {
               <MenuA href="#WorkContent3" onClick={() => setIsMenuOpen(!isMenuOpen)}>
                 <MenuButton>Rick and Morty BLOG</MenuButton>
               </MenuA>
-            </MenuCon>
+            </CaretDownMenuCon>
           )}
+        </WorkTitleCon>
+
+        <WorkMenuCon id="WorkMenuCon">
+            <MenuCon id="MenuCon">
+              <MenuA href="#WorkContent1">
+                <MenuButton>Inspirational Quote Generator</MenuButton>
+              </MenuA>
+              <MenuA href="#WorkContent2">
+                <MenuButton>Apple Geeks</MenuButton>
+              </MenuA>
+              <MenuA href="#WorkContent3">
+                <MenuButton>Rick and Morty BLOG</MenuButton>
+              </MenuA>
+            </MenuCon>
         </WorkMenuCon>
 
         <WorkContentCon id="WorkContentCon">

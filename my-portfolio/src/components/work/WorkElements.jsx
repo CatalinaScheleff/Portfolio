@@ -57,14 +57,25 @@ export const MenuCon = styled.div`
   position: fixed;
   width: 20vw;
   @media (max-width: 700px) {
+  display: none;
+  }
+`;
+
+export const CaretDownMenuCon = styled.div`
+  background-color: #b02685;
+  display: none;
+
+  @media (max-width: 700px) {
     display: ${(props) => (props.isOpen ? "grid" : "none")};
     grid-template-columns: auto;
-    right: 5vw;
-    top: 150px;
-    background-color: #ff00ae;
+    position: absolute;
+    top: 33%;
+    right: 5vw;  /* Ajusta según tus necesidades */
+    transform: translateY(-50%);
     z-index: 1;
     padding: 10px 0 10px;
     width: 60vw;
+    transition: right 0.3s;  /* Cambiado a right para la transición suave */
   }
 `;
 
