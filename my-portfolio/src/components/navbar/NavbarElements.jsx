@@ -1,3 +1,4 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
@@ -82,4 +83,8 @@ export const HamburgerButton = styled.button`
   @media (max-width: 700px) {
     display: block;
   }
+`;
+
+export const HamburguerIcon = styled(FontAwesomeIcon)`
+  font-size: 30px;
 `;

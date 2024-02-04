@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom"
-import { ContentLink, HamburgerButton, HamburgerCon, HomeLink, NavbarCon, NavbarIcon, NavbarIconButton, NavbarLeftCon, NavbarRightCon } from "./NavbarElements"
+import { ContentLink, HamburgerButton, HamburgerCon, HamburguerIcon, HomeLink, NavbarCon, NavbarIcon, NavbarIconButton, NavbarLeftCon, NavbarRightCon } from "./NavbarElements"
 import linkedinLogo from "../../assets/linkedin-logo.png"
 import githubLogo from "../../assets/githubLogo.jpg"
 import { useState } from "react"
+import { faBars } from "@fortawesome/free-solid-svg-icons"
 
 export const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -17,7 +18,7 @@ export const Navbar = () => {
             </NavbarLeftCon>
             <HamburgerCon>
             <HamburgerButton onClick={() => setIsMenuOpen(!isMenuOpen)}>
-      &#9776;
+            <HamburguerIcon icon={faBars} />
     </HamburgerButton>
     </HamburgerCon>
             <NavbarRightCon>
