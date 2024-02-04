@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom"
-import { Emoji, FooterCon, FooterTextCon } from "./FooterElements"
+
+import { Emoji, FooterCon, FooterLink, FooterTextCon } from "./FooterElements"
 
 
 export const Footer = () => {
@@ -7,9 +7,9 @@ export const Footer = () => {
         <FooterCon id="FooterCon">
             <FooterTextCon>
             Developed by 
-            <Link to={'https://github.com/CatalinaScheleff'} target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none', marginLeft: '4px', marginRight: '4px'}}>
+            <FooterLink to={'https://github.com/CatalinaScheleff'} target="_blank" rel="noopener noreferrer">
             Cata
-            </Link>
+            </FooterLink>
             <Emoji>🔥</Emoji>
             </FooterTextCon>
         </FooterCon>

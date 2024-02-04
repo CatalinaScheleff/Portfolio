@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const NavbarCon = styled.div`
-    background-color: red;
+    background-color: #264653;
     display: grid;
     grid-template-columns: auto auto;
     justify-content: space-between;
 `
 
 export const NavbarLeftCon = styled.div`
-  background-color: lightgreen;
+  /* background-color: lightgreen; */
   display: grid;
   place-items: center;
   grid-template-columns: auto auto auto auto auto;
@@ -35,6 +35,7 @@ text-decoration: none;
   font-weight: bold;
   font-size: 1.5em;
   margin-right: 1vw;
+  color: white;
   @media (max-width: 700px) {
     margin: 5px 0 5px;
   }
@@ -44,13 +45,14 @@ export const ContentLink = styled(Link)`
   text-decoration: none;
   font-size: 1.5em;
   margin-right: 1vw;
+  color: white;
   @media (max-width: 700px) {
     margin: 5px 0 5px;
   }
 `;
 
 export const NavbarRightCon = styled.div`
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
   margin-right: 5vw;
   display: grid;
   grid-template-columns: auto auto;
@@ -60,7 +62,8 @@ export const NavbarRightCon = styled.div`
 export const NavbarIconButton = styled.button`
   width: 60px;
   height: 60px;
-  
+  display: grid;
+  place-items: center;
 `;
 
 export const NavbarIcon = styled.img`

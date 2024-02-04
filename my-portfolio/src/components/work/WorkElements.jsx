@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const WorkCon = styled.div`
-  background-color: green;
+  /* background-color: green; */
   min-height: 90%;
   width: 90vw;
   display: grid;
@@ -20,7 +20,7 @@ export const WorkCon = styled.div`
 `;
 
 export const WorkTitleCon = styled.div`
-  background-color: brown;
+  /* background-color: brown; */
   grid-area: title;
   display: grid;
   grid-template-columns: auto auto;
@@ -29,7 +29,6 @@ export const WorkTitleCon = styled.div`
 `;
 
 export const WorkTitle = styled.h1`
-  background-color: lightblue;
   font-size: 5vw;
   @media (max-width: 700px) {
     font-size: 1.2em;
@@ -45,17 +44,19 @@ export const CaretDown = styled(FontAwesomeIcon)`
 `;
 
 export const WorkMenuCon = styled.div`
-background-color: orange;
+/* background-color: orange; */
 grid-area: menu;
 position: relative;
 `; 
 
 export const MenuCon = styled.div`
-  background-color: #b02685;
+  /* background-color: #b02685; */
   display: grid;
-  padding: 20px;
+  /* padding: 20px; */
   position: fixed;
   width: 20vw;
+  border: 2px solid #264653;
+  border-radius: 25px;
   @media (max-width: 700px) {
   display: none;
   }
@@ -83,6 +84,8 @@ export const MenuButton = styled.button`
 font-size: 1.2vw;
 padding-left: 0.5vw;
 width: 100%;
+background-color: transparent;
+border: #264653;
 @media (max-width: 700px) {
   text-align: end;
   padding-right: 0.5vw;
@@ -97,29 +100,35 @@ text-decoration: none;
 `;
 
 export const WorkContentCon = styled.div`
-  background-color: purple;
+  /* background-color: purple; */
   grid-area: content;
   display: grid;
   place-items: center;
 `;
 
 export const WorkContent1 = styled.div`
-  background-color: antiquewhite;
+  background-color: #95CEC7;
   margin: 3%;
   width: 90%;
   height: 600px;
+  border: 2px solid #264653;
+  border-radius: 25px;;
 `;
 
 export const WorkContent2 = styled.div`
-   background-color: antiquewhite;
+  background-color: #95CEC7;
   margin: 3%; 
   width: 90%;
   height: 600px;
+  border: 2px solid #264653;
+  border-radius: 25px;
 `;
 
 export const WorkContent3 = styled.div`
-   background-color: antiquewhite;
+  background-color: #95CEC7;
   margin: 3%; 
   width: 90%;
   height: 600px;
+  border: 2px solid #264653;
+  border-radius: 25px;
 `;

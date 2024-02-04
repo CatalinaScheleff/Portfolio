@@ -11,7 +11,7 @@ export const Home = () => {
     <>
       <HomeCon id="HomeCon">
         <HomeTitleCon id="HomeTitleCon">
-          <HomeTitle id="HomeTitle">Wellcome to my Portfolio!</HomeTitle>
+          <HomeTitle id="HomeTitle">Welcome to my Portfolio!</HomeTitle>
         </HomeTitleCon>
         <HomeTextCon id="HomeTextCon">
           <HomeText id="HomeText">

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const BackgroundCon = styled.div`
-background-color: black;
+/* background-color: black; */
   min-height: 100vh;
   display: grid;
   grid-template-rows: 80px auto 80px;
@@ -10,7 +10,7 @@ background-color: black;
 `;
 
 export const ContentCon = styled.div`
-  background-color: yellow;
+  /* background-color: yellow; */
   display: grid;
   place-items: center; 
   
