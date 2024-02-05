@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const FormCon = styled.div`
-  background-color: aquamarine;
+    background-color: #95CEC7;
   width: 600px;
   height: 350px;
   display: grid;
@@ -15,6 +15,8 @@ export const FormCon = styled.div`
   grid-template-rows: 15% 20% 15% auto 15%;
   padding: 20px;
   box-sizing: border-box;
+  border: 2px solid #264653;
+  border-radius: 25px;
   @media (max-width: 700px) {
     width: 250px;
     height: 600px;
@@ -33,7 +35,7 @@ export const FormCon = styled.div`
 `;
 
 export const NameCon = styled.div`
-  background-color: #b30925;
+  /* background-color: #b30925; */
   grid-area: name;
   font-size: 2em;
   @media (max-width: 700px) {
@@ -42,7 +44,7 @@ export const NameCon = styled.div`
 `;
 
 export const EmailCon = styled.div`
-  background-color: blue;
+  /* background-color: blue; */
   grid-area: email;
   font-size: 2em;
   @media (max-width: 700px) {
@@ -51,7 +53,7 @@ export const EmailCon = styled.div`
 `;
 
 export const InputNameCon = styled.div`
-  background-color: pink;
+  /* background-color: pink; */
   grid-area: inputname;
 
 `;
@@ -67,7 +69,7 @@ export const InputName = styled.input`
 `;
  
 export const InputEmailCon = styled.div`
-  background-color: #179427;
+  /* background-color: #179427; */
   grid-area: inputemail;
  
 `;
@@ -83,7 +85,7 @@ export const InputEmail = styled.input`
 `;
 
 export const MessageCon = styled.div`
-  background-color: blue;
+  /* background-color: blue; */
   grid-area: message;
   font-size: 2em;
   @media (max-width: 700px) {
@@ -92,7 +94,6 @@ export const MessageCon = styled.div`
 `;
 
 export const MessageInputCon = styled.div`
-  background-color: #514a4b;
   grid-area: inputmessage;
   width: 96.5%;
   @media (max-width: 700px) {
@@ -112,7 +113,7 @@ export const InputMessage = styled.textarea`
 `;
 
 export const ButtonsCon = styled.div`
-background-color: brown;
+/* background-color: brown; */
   grid-area: button;
   display: grid;
   grid-template-columns: auto auto;

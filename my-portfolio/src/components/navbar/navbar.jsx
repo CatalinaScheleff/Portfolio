@@ -34,7 +34,7 @@ export const Navbar = () => {
                 <HomeLink to="/" onClick={() => setIsMenuOpen(!isMenuOpen)}>Home</HomeLink>
                 <ContentLink to="/about" onClick={() => setIsMenuOpen(!isMenuOpen)}>About</ContentLink>
                 <ContentLink to="/work" onClick={() => setIsMenuOpen(!isMenuOpen)}>Work</ContentLink>
-                <ContentLink to="/certification" onClick={() => setIsMenuOpen(!isMenuOpen)}>Certification</ContentLink>
+                {/* <ContentLink to="/certification" onClick={() => setIsMenuOpen(!isMenuOpen)}>Certification</ContentLink> */}
                 <ContentLink to="/contact" onClick={() => setIsMenuOpen(!isMenuOpen)}>Contact</ContentLink>
             </NavbarLeftCon>
             <HamburgerCon>

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const CertificationCon = styled.div`
-  background-color: green;
+  /* background-color: green; */
   min-height: 90%;
   width: 90vw;
   display: grid;
@@ -16,14 +16,14 @@ export const CertificationCon = styled.div`
 `;
 
 export const CertificationTitleCon = styled.div`
-  background-color: brown;
+  /* background-color: brown; */
   grid-area: title;
   display: grid;
   padding: 10px;
 `;
 
 export const CertificationTitle = styled.h1`
-  background-color: lightblue;
+  /* background-color: lightblue; */
   font-size: 5vw;
   @media (max-width: 700px) {
     font-size: 1.2em;
@@ -31,7 +31,7 @@ export const CertificationTitle = styled.h1`
 `;
 
 export const CertificationContentCon = styled.div`
-  background-color: purple;
+  /* background-color: purple; */
   grid-area: content;
   display: grid;
   place-items: center;
@@ -39,14 +39,16 @@ export const CertificationContentCon = styled.div`
 `;
 
 export const CertificationContent = styled.div`
-  background-color: antiquewhite;
-  margin: 3%;
-  width: 70%;
+   background-color: #95CEC7;
+  /* margin: 3%; */
+  width: 60%;
   height: fit-content;
   display: grid;
   place-items: center;
   padding: 2%;
   min-width: 250px;
+  border: 2px solid #264653;
+  border-radius: 25px;
 `;
 
 export const CertificationImg = styled.img`
@@ -58,8 +60,8 @@ export const CertificationImg = styled.img`
 `;
 
 export const CertificationH1 = styled.p`
-  font-size: 3vw;
-  margin: 1%;
+  font-size: 2vw;
+  margin-top: 2%;
   @media (max-width: 700px) {
     font-size: 0.9em;
   }

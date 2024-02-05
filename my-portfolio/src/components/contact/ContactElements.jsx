@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ContactCon = styled.div`
-  background-color: green;
+  /* background-color: green; */
   min-height: 90%;
   width: 90vw;
   display: grid;
@@ -16,7 +16,7 @@ export const ContactCon = styled.div`
 `;
 
 export const ContactTitleCon = styled.div`
-  background-color: brown;
+  /* background-color: brown; */
   grid-area: title;
   height: fit-content;
   display: grid;
@@ -24,7 +24,7 @@ export const ContactTitleCon = styled.div`
 `;
 
 export const ContactTitle = styled.h1`
-  background-color: lightblue;
+  /* background-color: lightblue; */
   font-size: 5vw;
   height: 6vw;
   @media (max-width: 700px) {
@@ -33,11 +33,11 @@ export const ContactTitle = styled.h1`
 `;
 
 export const ContactFormCon = styled.div`
-  background-color: purple;
+  /* background-color: purple; */
   grid-area: content;
   display: grid;
   place-items: center;
-  padding: 3%;
+  
   box-sizing: border-box;
   @media (max-width: 700px) {
     height: 750px;
@@ -45,7 +45,7 @@ export const ContactFormCon = styled.div`
 `;
 
 export const ContactIconsCon = styled.div`
-  background-color: beige;
+  /* background-color: beige; */
   width: 50vw;
   height: 60px;
   display: grid;
@@ -64,6 +64,8 @@ export const IconButton = styled.button`
   height: 60px;
   grid-area: icon;
   padding: 5px;
+  background-color: transparent;
+  border: none;
   @media (max-width: 700px) {
     margin: 5px
   }
