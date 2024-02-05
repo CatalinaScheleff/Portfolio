@@ -108,7 +108,7 @@ export const WorkContentCon = styled.div`
 
 export const WorkContent1 = styled.div`
   background-color: #95CEC7;
-  margin: 3%;
+  margin: 0 3% 6% 3%;
   width: 90%;
   height: 600px;
   border: 2px solid #264653;
@@ -117,7 +117,7 @@ export const WorkContent1 = styled.div`
 
 export const WorkContent2 = styled.div`
   background-color: #95CEC7;
-  margin: 3%; 
+  margin: 0 3% 6% 3%;
   width: 90%;
   height: 600px;
   border: 2px solid #264653;
@@ -126,7 +126,7 @@ export const WorkContent2 = styled.div`
 
 export const WorkContent3 = styled.div`
   background-color: #95CEC7;
-  margin: 3%; 
+  margin: 0 3% 3% 3%;
   width: 90%;
   height: 600px;
   border: 2px solid #264653;
