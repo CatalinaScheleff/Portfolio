@@ -57,7 +57,6 @@ export const ContactIconsCon = styled.div`
   }
 `;
 
-
 export const IconButton = styled.button`
    border: 1px solid black;
   width: 60px;
