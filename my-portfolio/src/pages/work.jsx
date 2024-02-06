@@ -39,6 +39,8 @@ export const Work = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  
+
   return (
     <>
       <WorkCon id="WorkCon">

@@ -52,9 +52,9 @@ position: relative;
 export const MenuCon = styled.div`
   /* background-color: #b02685; */
   display: grid;
-  /* padding: 20px; */
+  padding: 20px 0 20px;
   position: fixed;
-  width: 20vw;
+  width: 22vw;
   border: 2px solid #264653;
   border-radius: 25px;
   @media (max-width: 700px) {
@@ -63,7 +63,7 @@ export const MenuCon = styled.div`
 `;
 
 export const CaretDownMenuCon = styled.div`
-  background-color: #b02685;
+  background-color: #26b03f;
   display: none;
 
   @media (max-width: 700px) {
@@ -79,13 +79,22 @@ export const CaretDownMenuCon = styled.div`
 `;
 
 export const MenuButton = styled.button`
-  text-align: left;
-  height: 4vw;
+text-align: left;
+height: 4vw;
 font-size: 1.2vw;
-padding-left: 0.5vw;
+padding: 0 15px;
 width: 100%;
 background-color: transparent;
-border: #264653;
+border: none;
+transition: all 200ms ease-in-out;
+
+  &:hover {
+    background-color: #cae7e3;
+  }
+  &:active  {
+    background-color: #287271;
+    color: white;
+  }
 @media (max-width: 700px) {
   text-align: end;
   padding-right: 0.5vw;
