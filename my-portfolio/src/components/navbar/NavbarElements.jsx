@@ -24,9 +24,12 @@ export const NavbarLeftCon = styled.div`
     position: absolute;
     right: 5vw;
     top: 80px;
-    background-color: #ff00ae;
+    background-color: white;
     z-index: 2;
-    padding: 10px 0 10px
+    padding: 10px 0 10px;
+    border: 2px solid #264653;
+    border-top: white;
+    border-radius: 0 0 25px 25px;
   }
 `;
 
@@ -38,6 +41,7 @@ text-decoration: none;
   color: white;
   @media (max-width: 700px) {
     margin: 5px 0 5px;
+    color: black;
   }
 `;
 
@@ -48,6 +52,7 @@ export const ContentLink = styled(Link)`
   color: white;
   @media (max-width: 700px) {
     margin: 5px 0 5px;
+    color: black;
   }
 `;
 

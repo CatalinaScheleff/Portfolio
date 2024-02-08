@@ -63,18 +63,20 @@ export const MenuCon = styled.div`
 `;
 
 export const CaretDownMenuCon = styled.div`
-  background-color: #26b03f;
+  background-color: white;
   display: none;
 
   @media (max-width: 700px) {
     display: ${(props) => (props.isOpen ? "grid" : "none")};
     grid-template-columns: auto;
     position: absolute;
-    top: 23%;
+    top: 160px;
     right: 5vw; 
     z-index: 1;
-    padding: 10px 0 10px;
+    padding: 10px 7px 10px;
     width: 60vw;
+    border: 2px solid #264653;
+  border-radius: 25px;
   }
 `;
 
@@ -99,7 +101,7 @@ transition: all 200ms ease-in-out;
   text-align: end;
   padding-right: 0.5vw;
   height: 40px;
-  font-size: 4vw;
+  font-size: 3.5vw;
 }
 `;
 
