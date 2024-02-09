@@ -38,7 +38,8 @@ export const AboutTextCon = styled.div`
 `;
 
 export const AboutText = styled.div`
-  background-color: #95CEC7;
+  /* background-color: #95CEC7; */
+  background-color: #b8dbd9;
   width: 70%;
   height: fit-content;
   display: grid;

@@ -2,14 +2,16 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const FooterCon = styled.div`
-        background-color: #264653;
+        /* background-color: #264653; */
+        background-color: #586f7c;
+        /* background-color: black; */
     display: grid;
     place-items: center;
 `
 export const FooterTextCon = styled.div`
 display: flex;
 justify-content: center;
-color: white;
+color: #f4f4f9;
 `;
 
 export const Emoji = styled.p`
@@ -20,5 +22,5 @@ export const Emoji = styled.p`
 export const FooterLink = styled(Link)`
   text-decoration: none;
   margin: 0 4px 0 4px;
-  color: white;
+  color: #f4f4f9;
 `;

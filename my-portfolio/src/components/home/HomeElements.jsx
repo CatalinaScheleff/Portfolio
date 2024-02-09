@@ -17,17 +17,20 @@ export const HomeTitleCon = styled.div`
 
 export const HomeTitle = styled.h1`
   font-size: 6vw;
-  /* color: #264653; */
+  color: #586f7c;
 `;
 
 export const HomeTextCon = styled.div`
-  background-color: #2A9D8F;
+  /* background-color: #2A9D8F; */
+  background-color: #b8dbd9;
   width: 60vw;
   max-width: 1000px;
   height: 50vh;
   display: grid;
   place-items: center;
-  border: 2px solid #264653;
+  /* border: 2px solid #586f7c; */
+  /* border: 2px solid black; */
+
   border-radius: 25px;
   @media (max-width: 700px) {
     width: 80vw;
@@ -36,7 +39,8 @@ export const HomeTextCon = styled.div`
 
 export const HomeText = styled.p`
   /* background-color: grey; */
-  color: white;
+  /* color: white; */
+  color: black;
   font-size: 2vw;
   text-align: center;
   margin: 3%;

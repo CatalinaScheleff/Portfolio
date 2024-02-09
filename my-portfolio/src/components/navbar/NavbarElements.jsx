@@ -3,7 +3,10 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const NavbarCon = styled.div`
-    background-color: #264653;
+    /* background-color: #264653; */
+    /* background-color: #586f7c; */
+    background-color: black;
+
     display: grid;
     grid-template-columns: auto auto;
     justify-content: space-between;
@@ -38,7 +41,7 @@ text-decoration: none;
   font-weight: bold;
   font-size: 1.5em;
   margin-right: 1vw;
-  color: white;
+  color: #f4f4f9;
   @media (max-width: 700px) {
     margin: 5px 0 5px;
     color: black;
@@ -49,7 +52,7 @@ export const ContentLink = styled(Link)`
   text-decoration: none;
   font-size: 1.5em;
   margin-right: 1vw;
-  color: white;
+  color: #f4f4f9;
   @media (max-width: 700px) {
     margin: 5px 0 5px;
     color: black;
