@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const FormCon = styled.div`
-    background-color: #95CEC7;
+    background-color: #b8dbd9;
   width: 600px;
   height: 350px;
   display: grid;
@@ -15,7 +15,7 @@ export const FormCon = styled.div`
   grid-template-rows: 15% 20% 15% auto 15%;
   padding: 20px;
   box-sizing: border-box;
-  border: 2px solid #264653;
+  /* border: 2px solid #264653; */
   border-radius: 25px;
   @media (max-width: 700px) {
     width: 250px;
@@ -123,25 +123,25 @@ export const ButtonsCon = styled.div`
 
 export const Button = styled.button`
 width: 100px;
-background-color: #287271;
+background-color: #04724d;
 border-radius: 3px;
 border: 1px solid #264653;
 box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
 font-size: 15px;
 padding: 8px .8em;
-color: white;
+color: #f4f4f9;
 transition: all 200ms ease-in-out;
   &:hover {
-    background-color: #264653;
-    color: white;
+    background-color: #023927;
+    color: #f4f4f9;
   }
 
-  &:focus {
+  /* &:focus {
     box-shadow: 0 0 0 4px rgba(0, 149, 255, 0.15);
-  }
+  } */
 
   &:active {
-    background-color: #cae7e3;
+    background-color: #7cb3a3;
     box-shadow: none;
     color: black;
   }

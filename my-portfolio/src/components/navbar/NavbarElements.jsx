@@ -72,7 +72,7 @@ export const NavbarIconButton = styled.button`
   height: 60px;
   display: grid;
   place-items: center;
-  background-color: #264653;
+  background-color: black;
   border: none;
 `;
 

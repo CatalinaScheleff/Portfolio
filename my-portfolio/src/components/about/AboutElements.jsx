@@ -24,6 +24,7 @@ export const AboutTitleCon = styled.div`
 
 export const AboutTitle = styled.h1`
   /* color: #264653; */
+  color: #586f7c;
   font-size: 5vw;
   @media (max-width: 700px) {
     font-size: 1.2em;
@@ -42,19 +43,11 @@ export const AboutText = styled.div`
   background-color: #b8dbd9;
   width: 70%;
   height: fit-content;
-  display: grid;
-  place-items: center;
+  text-align: center;
   padding: 2%;
   min-width: 250px;
-  border: 2px solid #264653;
   border-radius: 25px;
+  font-size: 1em;
 `;
 
-export const AboutP = styled.p`
-  font-size: 1.2vw;
-  /* min-width:200px; */
-  @media (max-width: 700px) {
-    font-size: 1em;
-  }
-`;
 

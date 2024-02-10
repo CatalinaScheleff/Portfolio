@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import { ContentLink, HamburgerButton, HamburgerCon, HamburguerIcon, HomeLink, NavbarCon, NavbarIcon, NavbarIconButton, NavbarLeftCon, NavbarRightCon } from "./NavbarElements"
 import linkedinLogo from "../../assets/linkedin-logo.png"
-import githubLogo from "../../assets/githubLogo.jpg"
+import githubLogo from "../../assets/githubLogo.png"
 import { useEffect, useState } from "react"
 import { faBars } from "@fortawesome/free-solid-svg-icons"
 

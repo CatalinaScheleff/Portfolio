@@ -1,32 +1,60 @@
-
-import { AboutCon, AboutP, AboutText, AboutTextCon, AboutTitle, AboutTitleCon} from "../components/about/aboutElements.jsx";
-
+import {
+  AboutCon,
+  AboutText,
+  AboutTextCon,
+  AboutTitle,
+  AboutTitleCon,
+} from "../components/about/AboutElements.jsx";
 
 export const About = () => {
   return (
     <>
       <AboutCon id="AboutCon">
         <AboutTitleCon id="AboutTitleCon">
-            <AboutTitle>About</AboutTitle>
+          <AboutTitle>About</AboutTitle>
         </AboutTitleCon>
         <AboutTextCon id="AboutTextCon">
           <AboutText id="AboutText">
-            <AboutP id="AboutP">I am writing to express my enthusiastic interest in the Junior Software Developer. With a background in Full Stack development, I am excited to contribute my dedication, creativity, and technical skills to your innovative team.
-
-I am a certified Full Stack developer from 4Geeks Academy Chile, equipped with a skill set that includes HTML, CSS, JavaScript, React.js, Python, Flask, testing framework Jest, JWT, SQLAlchemy, REST API development and integration, and version control system Git.
-
-In a collaborative project, Apple Geeks, I successfully developed a fully operational MVP App dedicated to promoting Apple-related services. Utilizing React.js, JavaScript, HTML, and CSS, I created an engaging and functional user interface. For the backend, I implemented Python, Flask, JWT, and Rest APIs. You are welcome to explore this and other projects on my GitHub profile: https://github.com/CatalinaScheleff.
-
-Furthermore, I am proactively expanding my expertise by studying cutting-edge technologies such as TypeScript, Next.js, NodeJS and AWS through online courses.
-
-In addition to my technical skills, I possess strong written and verbal communication abilities in English. I am a team player that thrives in collaborative environments and is equally adept at managing projects independently.
-
-Thank you for considering my application. I am excited about the opportunity to contribute to your team and be part of an organization that values diversity, innovation, and excellence.
-</AboutP>
+            <p>
+              I am a certified full stack developer trained at 4Geeks Academy.
+              My expertise encompasses a range of technologies, including HTML,
+              CSS, JavaScript, React, Bootstrap, Python, Flask, SQLAlchemy, JWT,
+              Jest, API REST development and integration, and Git for version
+              control. I have actively participated in various projects,
+              utilizing agile methodologies with tools such as Trello and
+              incorporating web design principles using Figma.
+            </p>
+            <br />
+            <p>
+              Currently, I am proactively expanding my skill set by learning
+              additional technologies such as TypeScript, AWS,
+              Styled-components, Next.js, and Node.js.
+            </p>
+            <br />
+            <p>
+              In addition to my technical proficiencies, I possess strong
+              written and verbal communication skills in English. I thrive in
+              collaborative environments, while also demonstrating the
+              capability to manage projects independently.
+            </p>
+            <br />
+            <p>
+              I am deeply committed to fostering multiculturalism and I value
+              diversity as a powerful component of any collaborative
+              environment. I believe in creating a workplace where everyone
+              feels respected, appreciated, and empowered to contribute their
+              unique perspectives and talents, and this commitment drives my
+              approach to project management and collaboration.
+            </p>
+            <br />
+            <p>
+              I am excited to continue my professional growth within the
+              development field, driven by a passion for learning and expanding
+              my knowledge.
+            </p>
           </AboutText>
         </AboutTextCon>
       </AboutCon>
     </>
   );
 };
- 

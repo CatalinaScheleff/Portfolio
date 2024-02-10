@@ -21,22 +21,22 @@ export const Contact = () => {
             
           </ContactForm>
           <ContactIconsCon id="ContactIconsCon">
-             <Link to={'https://w.app/3YtU9p'} target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none'}}>
+             <Link to={'https://w.app/3YtU9p'} target="_blank" rel="noopener noreferrer" >
                 <IconButton>
                 <Icon id="Icon" src={whatsappLogo}/>
                 </IconButton>
              </Link>
-             <Link to={'mailto:catalina.scheleff@gmail.com'} target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none'}}>
+             <Link to={'mailto:catalina.scheleff@gmail.com'} target="_blank" rel="noopener noreferrer" >
                 <IconButton>
                     <Icon id="Icon" src={gmailLogo}/>
                 </IconButton>
              </Link>
-             <Link to={'https://www.linkedin.com/in/catalina-scheleff-caceres/'} target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none'}}>
+             <Link to={'https://www.linkedin.com/in/catalina-scheleff-caceres/'} target="_blank" rel="noopener noreferrer" >
                 <IconButton>
                 <Icon id="Icon" src={linkedinLogo}/>
                 </IconButton>
              </Link>
-             <Link to={'https://github.com/CatalinaScheleff'} target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none'}}>
+             <Link to={'https://github.com/CatalinaScheleff'} target="_blank" rel="noopener noreferrer" >
                 <IconButton >
                 <Icon id="Icon" src={githubLogo}/>
                 </IconButton>

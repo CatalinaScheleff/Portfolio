@@ -25,6 +25,7 @@ export const ContactTitleCon = styled.div`
 
 export const ContactTitle = styled.h1`
   /* background-color: lightblue; */
+  color: #586f7c;
   font-size: 5vw;
   height: 6vw;
   @media (max-width: 700px) {

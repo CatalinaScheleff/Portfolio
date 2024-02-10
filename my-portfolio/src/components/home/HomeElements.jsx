@@ -25,28 +25,14 @@ export const HomeTextCon = styled.div`
   background-color: #b8dbd9;
   width: 60vw;
   max-width: 1000px;
-  height: 50vh;
-  display: grid;
-  place-items: center;
-  /* border: 2px solid #586f7c; */
-  /* border: 2px solid black; */
-
+  height: fit-content;
+  text-align: center;
   border-radius: 25px;
+  padding: 20px;
+  font-size: 1em;
+  margin-bottom: 20px;
   @media (max-width: 700px) {
     width: 80vw;
   }
 `;
-
-export const HomeText = styled.p`
-  /* background-color: grey; */
-  /* color: white; */
-  color: black;
-  font-size: 2vw;
-  text-align: center;
-  margin: 3%;
-  @media (max-width: 700px) {
-    font-size: 1em;
-  }
-`;
-
 
