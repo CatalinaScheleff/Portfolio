@@ -5,10 +5,11 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: '/',
-  server: {
-    // Asegura que los archivos JSX se sirvan con el tipo MIME correcto
-    mimeTypes: {
-      jsx: 'text/javascript'
-    }
+  // Esta opción configura cómo Vite interpreta ciertos tipos de archivo.
+  // Asegúrate de que los archivos JSX se compilen a JavaScript estándar
+  // antes de ser servidos.
+  esbuild: {
+    jsxFactory: 'React.createElement',
+    jsxFragment: 'React.Fragment'
   }
 })
