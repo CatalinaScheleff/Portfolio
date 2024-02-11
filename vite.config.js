@@ -10,6 +10,8 @@ export default defineConfig({
   // antes de ser servidos.
   esbuild: {
     jsxFactory: 'React.createElement',
-    jsxFragment: 'React.Fragment'
+    jsxFragment: 'React.Fragment',
+    // Asegura que los archivos JSX se compilen a JavaScript estándar
+    jsx: 'react'
   }
 })
