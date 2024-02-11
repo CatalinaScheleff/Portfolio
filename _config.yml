@@ -1,6 +1,0 @@
-defaults:
-  - scope:
-      path: ""
-      type: "text/javascript"
-    values:
-      content_type: "text/javascript"
