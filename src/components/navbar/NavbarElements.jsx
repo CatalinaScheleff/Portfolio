@@ -21,7 +21,7 @@ export const NavbarLeftCon = styled.div`
   margin-left: 5vw;
   
   @media (max-width: 700px) {
-    display: ${(props) => (props.isOpen ? "grid" : "none")};
+    display: ${(props) => (props['data-isopen'] ? "grid" : "none")};
     grid-template-columns: auto;
     width: 90%;
     position: absolute;

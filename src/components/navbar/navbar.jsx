@@ -30,7 +30,8 @@ export const Navbar = () => {
 
     return (
         <NavbarCon id="NavbarCon">
-            <NavbarLeftCon id="NavbarLeftCon" isOpen={isMenuOpen}>
+            <NavbarLeftCon id="NavbarLeftCon" data-isopen={isMenuOpen}>
+
                 <HomeLink to="/" onClick={() => setIsMenuOpen(!isMenuOpen)}>Home</HomeLink>
                 <ContentLink to="/about" onClick={() => setIsMenuOpen(!isMenuOpen)}>About</ContentLink>
                 <ContentLink to="/work" onClick={() => setIsMenuOpen(!isMenuOpen)}>Work</ContentLink>
