@@ -28,7 +28,7 @@ export const HomeTextCon = styled.div`
   height: fit-content;
   text-align: center;
   border-radius: 25px;
-  padding: 20px;
+  padding: 30px;
   font-size: 1em;
   margin-bottom: 20px;
   @media (max-width: 700px) {

@@ -13,10 +13,10 @@ export const Home = () => {
           <HomeTitle id="HomeTitle">Welcome to my Portfolio!</HomeTitle>
         </HomeTitleCon>
         <HomeTextCon id="HomeTextCon">
-          <p>
+          <h3>
             Hello! My name is Catalina Scheleff. I am a beginner Full Stack
             Developer from Chile.
-          </p><br/>
+          </h3><br/>
           <p>
             Thanks for checking out my portfolio! I&apos;m on a mission to kickstart
             my career in web development, and I&apos;m excited to show you what I&apos;ve

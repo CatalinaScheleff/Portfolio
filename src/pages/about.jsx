@@ -17,7 +17,7 @@ export const About = () => {
           <AboutText id="AboutText">
             <p>
               I am a certified full stack developer trained at 4Geeks Academy.
-              My expertise encompasses a range of technologies, including HTML,
+              My expertise covers a variety of technologies, including HTML,
               CSS, JavaScript, React, Bootstrap, Python, Flask, SQLAlchemy, JWT,
               Jest, API REST development and integration, and Git for version
               control. I have actively participated in various projects,

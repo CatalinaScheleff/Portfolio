@@ -50,7 +50,7 @@ export const ContactIconsCon = styled.div`
   width: 50vw;
   height: 60px;
   display: grid;
-  grid-template-areas: 'icon icon icon icon';
+  grid-template-areas: 'icon icon icon'; //add icon for whatsapp
   margin-top: 10px;
   justify-content: space-around;
   @media (max-width: 700px) {

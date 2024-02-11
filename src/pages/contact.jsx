@@ -4,7 +4,7 @@ import { ContactForm } from "../components/contactForm/ContactForm";
 import gmailLogo from "../assets/gmailLogo.png"
 import githubLogo from "../assets/githubLogo.jpg"
 import linkedinLogo from "../assets/linkedin-logo.png"
-import whatsappLogo from "../assets/whatsappLogo.png"
+// import whatsappLogo from "../assets/whatsappLogo.png"
 
 
 
@@ -21,11 +21,11 @@ export const Contact = () => {
             
           </ContactForm>
           <ContactIconsCon id="ContactIconsCon">
-             <Link to={'https://w.app/3YtU9p'} target="_blank" rel="noopener noreferrer" >
+             {/* <Link to={'https://w.app/3YtU9p'} target="_blank" rel="noopener noreferrer" >
                 <IconButton>
                 <Icon id="Icon" src={whatsappLogo}/>
                 </IconButton>
-             </Link>
+             </Link> */}
              <Link to={'mailto:catalina.scheleff@gmail.com'} target="_blank" rel="noopener noreferrer" >
                 <IconButton>
                     <Icon id="Icon" src={gmailLogo}/>
