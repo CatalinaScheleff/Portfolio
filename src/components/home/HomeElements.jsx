@@ -21,7 +21,6 @@ export const HomeTitle = styled.h1`
 `;
 
 export const HomeTextCon = styled.div`
-  /* background-color: #2A9D8F; */
   background-color: #b8dbd9;
   width: 60vw;
   max-width: 1000px;
@@ -32,7 +31,7 @@ export const HomeTextCon = styled.div`
   font-size: 1em;
   margin-bottom: 20px;
   @media (max-width: 700px) {
-    width: 80vw;
+    width: 70vw;
   }
 `;
 

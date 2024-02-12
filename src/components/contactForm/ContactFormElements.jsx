@@ -18,7 +18,7 @@ export const FormCon = styled.div`
   /* border: 2px solid #264653; */
   border-radius: 25px;
   @media (max-width: 700px) {
-    width: 250px;
+    width: 80vw;
     height: 600px;
     grid-template-areas:
       "name" 
