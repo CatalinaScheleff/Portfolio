@@ -50,7 +50,7 @@ export const AboutText = styled.div`
   font-size: 1em;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   @media (max-width: 700px) {
-    width: 80vw;
+    width: 70vw;
     margin-top: 27px;
     padding: 7%;
   }
