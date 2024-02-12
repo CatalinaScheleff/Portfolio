@@ -54,13 +54,13 @@ export const Work = () => {
           <CaretDown icon={faAngleDown} onClick={handleCaretDownClick} />
           {isMenuOpen && (
             <CaretDownMenuCon id="CaretDownMenuCon" isOpen={isMenuOpen}>
-              <MenuA href="#WorkContent1" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+              <MenuA href="#InspirationalQuoteGenerator" onClick={() => setIsMenuOpen(!isMenuOpen)}>
                 <MenuButton>Inspirational Quote Generator</MenuButton>
               </MenuA>
-              <MenuA href="#WorkContent2" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+              <MenuA href="#AppleGeeks" onClick={() => setIsMenuOpen(!isMenuOpen)}>
                 <MenuButton>Apple Geeks</MenuButton>
               </MenuA>
-              <MenuA href="#WorkContent3" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+              <MenuA href="#RickAndMortyBlog" onClick={() => setIsMenuOpen(!isMenuOpen)}>
                 <MenuButton>Rick and Morty BLOG</MenuButton>
               </MenuA>
             </CaretDownMenuCon>
