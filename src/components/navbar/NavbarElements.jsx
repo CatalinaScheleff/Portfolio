@@ -33,6 +33,7 @@ export const NavbarLeftCon = styled.div`
     border: 2px solid #264653;
     border-top: white;
     border-radius: 0 0 25px 25px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
 `;
 
