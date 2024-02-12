@@ -1053,14 +1053,15 @@ color: black;
   width: 70%;
   height: fit-content;
   text-align: center;
-  padding: 2%;
+  padding: 4%;
   min-width: 250px;
   border-radius: 25px;
   font-size: 1em;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   @media (max-width: 700px) {
     width: 80vw;
-    margin-top: 27px
+    margin-top: 27px;
+    padding: 7%;
   }
 `,Jx=()=>v.jsx(v.Fragment,{children:v.jsxs(Yx,{id:"AboutCon",children:[v.jsx(Gx,{id:"AboutTitleCon",children:v.jsx(Qx,{children:"About"})}),v.jsx(Kx,{id:"AboutTextCon",children:v.jsxs(Xx,{id:"AboutText",children:[v.jsx("p",{children:"I am a certified full stack developer trained at 4Geeks Academy. My expertise covers a variety of technologies, including HTML, CSS, JavaScript, React, Bootstrap, Python, Flask, SQLAlchemy, JWT, Jest, API REST development and integration, and Git for version control. I have actively participated in various projects, utilizing agile methodologies with tools such as Trello and incorporating web design principles using Figma."}),v.jsx("br",{}),v.jsx("p",{children:"Currently, I am proactively expanding my skill set by learning additional technologies such as TypeScript, AWS, Styled-components, Next.js, and Node.js."}),v.jsx("br",{}),v.jsx("p",{children:"In addition to my technical proficiencies, I possess strong written and verbal communication skills in English and Spanish. I thrive in collaborative environments, while also demonstrating the capability to manage projects independently."}),v.jsx("br",{}),v.jsx("p",{children:"I am deeply committed to fostering multiculturalism and I value diversity as a powerful component of any collaborative environment. I believe in creating a workplace where everyone feels respected, appreciated, and empowered to contribute their unique perspectives and talents, and this commitment drives my approach to project management and collaboration."}),v.jsx("br",{}),v.jsx("p",{children:"I am excited to continue my professional growth within the development field, driven by a passion for learning and expanding my knowledge."})]})})]})}),Zx=_.div`
   /* background-color: green; */
@@ -1156,7 +1157,7 @@ color: black;
       "button";
     grid-template-columns: auto;
     grid-template-rows: 7% 10% 7% 10% 7% auto 10%;
-    padding: 10px;
+    padding: 15px;
     margin: 13px;
   }
 `,ik=_.div`

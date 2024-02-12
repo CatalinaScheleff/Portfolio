@@ -31,7 +31,7 @@ export const FormCon = styled.div`
       "button";
     grid-template-columns: auto;
     grid-template-rows: 7% 10% 7% 10% 7% auto 10%;
-    padding: 10px;
+    padding: 15px;
     margin: 13px;
   }
 `;

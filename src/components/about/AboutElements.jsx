@@ -44,13 +44,14 @@ export const AboutText = styled.div`
   width: 70%;
   height: fit-content;
   text-align: center;
-  padding: 2%;
+  padding: 4%;
   min-width: 250px;
   border-radius: 25px;
   font-size: 1em;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   @media (max-width: 700px) {
     width: 80vw;
-    margin-top: 27px
+    margin-top: 27px;
+    padding: 7%;
   }
 `;
