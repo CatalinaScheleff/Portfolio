@@ -101,3 +101,7 @@ export const HamburgerButton = styled.button`
 export const HamburguerIcon = styled(FontAwesomeIcon)`
   font-size: 30px;
 `;
+
+export const IconLink = styled(Link)`
+  
+`;

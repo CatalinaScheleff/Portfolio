@@ -1,5 +1,4 @@
-import { Link } from "react-router-dom"
-import { ContentLink, HamburgerButton, HamburgerCon, HamburguerIcon, HomeLink, NavbarCon, NavbarIcon, NavbarIconButton, NavbarLeftCon, NavbarRightCon } from "./NavbarElements"
+import { ContentLink, HamburgerButton, HamburgerCon, HamburguerIcon, HomeLink, IconLink, NavbarCon, NavbarIcon, NavbarIconButton, NavbarLeftCon, NavbarRightCon } from "./NavbarElements"
 import linkedinLogo from "../../assets/linkedin-logo.png"
 import githubLogo from "../../assets/githubLogo.png"
 import { useEffect, useState } from "react"
@@ -44,16 +43,16 @@ export const Navbar = () => {
     </HamburgerButton>
     </HamburgerCon>
             <NavbarRightCon>
-            <Link to={'https://www.linkedin.com/in/catalina-scheleff-caceres/'} target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none'}}>
+            <IconLink to={'https://www.linkedin.com/in/catalina-scheleff-caceres/'} target="_blank" rel="noopener noreferrer">
                 <NavbarIconButton>
                 <NavbarIcon id="Icon" src={linkedinLogo}/>
                 </NavbarIconButton>
-             </Link>
-             <Link to={'https://github.com/CatalinaScheleff'} target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none'}}>
+             </IconLink>
+             <IconLink to={'https://github.com/CatalinaScheleff'} target="_blank" rel="noopener noreferrer">
                 <NavbarIconButton >
                 <NavbarIcon id="Icon" src={githubLogo}/>
                 </NavbarIconButton>
-             </Link>
+             </IconLink>
             </NavbarRightCon>
         </NavbarCon>
     )

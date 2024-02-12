@@ -93,11 +93,11 @@ export const Work = () => {
             <p>HTML/CSS - Styled-components - React.js - REST API - AWS - Typescript - Node.js - Next.js</p>
             <br/>
             <p>Github: </p>
-            <ContentLink href='https://github.com/CatalinaScheleff/Inspirational-Quote-Generator-1' target='_blank' rel='noreferrer'>
+            <ContentLink to={'https://github.com/CatalinaScheleff/Inspirational-Quote-Generator-1'} target='_blank' rel='noreferrer'>
             https://github.com/CatalinaScheleff/Inspirational-Quote-Generator-1
             </ContentLink>
             <p>Website:</p>
-            <ContentLink href='https://prod.dowkawkcqzyzh.amplifyapp.com' target='_blank' rel='noreferrer'>
+            <ContentLink to={'https://prod.dowkawkcqzyzh.amplifyapp.com'} target='_blank' rel='noreferrer'>
             https://prod.dowkawkcqzyzh.amplifyapp.com
             </ContentLink>
             </ContentTextCon>
@@ -111,7 +111,7 @@ export const Work = () => {
             <p>HTML/CSS - Javascript - React.js - Bootstrap - Python - Flask - REST API - JWT</p>
             <br/>
             <p>Github: </p>
-            <ContentLink href='https://github.com/CatalinaScheleff/Apple-Geeks' target='_blank' rel='noreferrer'>
+            <ContentLink to={'https://github.com/CatalinaScheleff/Apple-Geeks'} target='_blank' rel='noreferrer'>
             https://github.com/CatalinaScheleff/Apple-Geeks
             </ContentLink>
             </ContentTextCon>
@@ -125,7 +125,7 @@ export const Work = () => {
             <p>HTML/CSS - Javascript - React.js - Bootstrap - REST APIs</p>
             <br/>
             <p>Github: </p>
-            <ContentLink href='https://github.com/CatalinaScheleff/RickAndMorty-blog-reading-list' target='_blank' rel='noreferrer'>
+            <ContentLink to={'https://github.com/CatalinaScheleff/RickAndMorty-blog-reading-list'} target='_blank' rel='noreferrer'>
             https://github.com/CatalinaScheleff/RickAndMorty-blog-reading-list
             </ContentLink>
             </ContentTextCon>

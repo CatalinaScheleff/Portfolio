@@ -56,7 +56,7 @@ export const MenuCon = styled.div`
   display: grid;
   padding: 20px 0 20px;
   position: fixed;
-  width: 22vw;
+  width: 20vw;
   border: 2px solid #04724d;
   border-radius: 25px;
   @media (max-width: 700px) {
@@ -169,6 +169,6 @@ export const ContentLink = styled(Link)`
   text-decoration: none;
   color: black;
   @media (max-width: 700px) {
-    font-size: 2.5vw;
+    font-size: 2.8vw;
   }
 `;
