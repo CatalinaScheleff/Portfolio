@@ -41,6 +41,7 @@ export const CaretDown = styled(FontAwesomeIcon)`
   font-size: 7vw;
   margin-right: 4vw;
   color: #586f7c;
+  margin-top: 12px;
   @media (min-width: 700px) {
     display: none;
   }

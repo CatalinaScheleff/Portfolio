@@ -920,6 +920,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   font-size: 7vw;
   margin-right: 4vw;
   color: #586f7c;
+  margin-top: 12px;
   @media (min-width: 700px) {
     display: none;
   }
