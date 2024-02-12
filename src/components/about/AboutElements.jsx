@@ -50,7 +50,7 @@ export const AboutText = styled.div`
   font-size: 1em;
   @media (max-width: 700px) {
     width: 80vw;
-    margin: 27px
+    margin-top: 27px
   }
 `;
 
