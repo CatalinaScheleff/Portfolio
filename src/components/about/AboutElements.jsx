@@ -48,10 +48,9 @@ export const AboutText = styled.div`
   min-width: 250px;
   border-radius: 25px;
   font-size: 1em;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   @media (max-width: 700px) {
     width: 80vw;
     margin-top: 27px
   }
 `;
-
-

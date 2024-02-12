@@ -17,6 +17,7 @@ export const FormCon = styled.div`
   box-sizing: border-box;
   /* border: 2px solid #264653; */
   border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   @media (max-width: 700px) {
     width: 80vw;
     height: 600px;
@@ -32,7 +33,6 @@ export const FormCon = styled.div`
     grid-template-rows: 7% 10% 7% 10% 7% auto 10%;
     padding: 10px;
     margin: 13px;
-    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
   }
 `;
 
@@ -133,6 +133,7 @@ font-size: 15px;
 padding: 8px .8em;
 color: #f4f4f9;
 transition: all 200ms ease-in-out;
+
   &:hover {
     background-color: #023927;
     color: #f4f4f9;

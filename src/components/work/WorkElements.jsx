@@ -40,6 +40,7 @@ export const WorkTitle = styled.h1`
 export const CaretDown = styled(FontAwesomeIcon)`
   font-size: 7vw;
   margin-right: 4vw;
+  color: #586f7c;
   @media (min-width: 700px) {
     display: none;
   }
@@ -52,20 +53,21 @@ position: relative;
 `; 
 
 export const MenuCon = styled.div`
-  /* background-color: #b02685; */
+  background-color: #f4f4f9;
   display: grid;
   padding: 20px 0 20px;
   position: fixed;
   width: 20vw;
   border: 2px solid #04724d;
   border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   @media (max-width: 700px) {
   display: none;
   }
 `;
 
 export const CaretDownMenuCon = styled.div`
-  background-color: white;
+  background-color: #f4f4f9;
   display: none;
 
   @media (max-width: 700px) {
@@ -76,16 +78,17 @@ export const CaretDownMenuCon = styled.div`
     right: 5vw; 
     z-index: 1;
     padding: 20px 0 20px;
-    width: 60vw;
+    width: 62vw;
     border: 2px solid #04724d;
-  border-radius: 25px;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
 `;
 
 export const MenuButton = styled.button`
 text-align: left;
 height: 4vw;
-font-size: 1.2vw;
+font-size: 1vw;
 padding: 0 15px;
 width: 100%;
 background-color: transparent;
@@ -130,26 +133,10 @@ export const WorkContent = styled.div`
   padding: 30px;
   border-radius: 25px;;
   text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   @media (max-width: 700px) {
     width: 70vw;
   }
-`;
-
-export const WorkContent2 = styled.div`
-  background-color: #b8dbd9;
-  margin: 0 3% 6% 3%;
-  width: 90%;
-  height: fit-content;
-  /* border: 2px solid #264653; */
-  border-radius: 25px;
-`;
-
-export const WorkContent3 = styled.div`
-  background-color: #b8dbd9;
-  margin: 0 3% 3% 3%;
-  width: 90%;
-  height: fit-content;
-  border-radius: 25px;
 `;
 
 export const ContentGif = styled.img`

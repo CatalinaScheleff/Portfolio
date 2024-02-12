@@ -19,7 +19,7 @@ export const HomeTitle = styled.h1`
   font-size: 6vw;
   color: #586f7c;
   @media (max-width: 700px) {
-    font-size: 7vw;
+    font-size: 6.8vw;
   }
 `;
 
@@ -33,6 +33,7 @@ export const HomeTextCon = styled.div`
   padding: 30px;
   font-size: 1em;
   margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   @media (max-width: 700px) {
     width: 70vw;
   }
