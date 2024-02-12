@@ -31,6 +31,8 @@ export const FormCon = styled.div`
     grid-template-columns: auto;
     grid-template-rows: 7% 10% 7% 10% 7% auto 10%;
     padding: 10px;
+    margin: 13px;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
   }
 `;
 

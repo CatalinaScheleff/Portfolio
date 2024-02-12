@@ -33,7 +33,7 @@ export const WorkTitle = styled.h1`
   font-size: 5vw;
   color: #586f7c;
   @media (max-width: 700px) {
-    font-size: 1.2em;
+    font-size: 2em;
   }
 `;
 

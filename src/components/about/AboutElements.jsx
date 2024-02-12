@@ -27,7 +27,7 @@ export const AboutTitle = styled.h1`
   color: #586f7c;
   font-size: 5vw;
   @media (max-width: 700px) {
-    font-size: 1.2em;
+    font-size: 2em;
   }
 `;
 
@@ -48,6 +48,10 @@ export const AboutText = styled.div`
   min-width: 250px;
   border-radius: 25px;
   font-size: 1em;
+  @media (max-width: 700px) {
+    width: 80vw;
+    margin: 27px
+  }
 `;
 
 

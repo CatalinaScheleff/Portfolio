@@ -12,12 +12,15 @@ export const HomeTitleCon = styled.div`
   /* background-color: brown; */
   display: grid;
   place-items: center;
-  padding: 10px;
+  padding: 30px 0 27px 0;
 `;
 
 export const HomeTitle = styled.h1`
   font-size: 6vw;
   color: #586f7c;
+  @media (max-width: 700px) {
+    font-size: 7vw;
+  }
 `;
 
 export const HomeTextCon = styled.div`
