@@ -975,6 +975,7 @@ transition: all 200ms ease-in-out;
 }
 `,Ln=P.a`
 text-decoration: none;
+color: black;
 
 `,Fx=P.div`
   /* background-color: purple; */
@@ -1381,6 +1382,7 @@ margin-left: 5vw;
   }
 `,Ak=P(Pr)`
   font-size: 30px;
+  color: black;
 `,yd=P(Kt)`
   
 `,Rk="/assets/githubLogo-cK1h1dgD.png",zk=()=>{const[e,t]=_.useState(!1);_.useEffect(()=>{const r=i=>{const a=document.getElementById("NavbarLeftCon");a&&!a.contains(i.target)&&e&&t(!1)};return document.addEventListener("click",r),()=>{document.removeEventListener("click",r)}},[e]);const n=r=>{r.stopPropagation(),t(!e)};return v.jsxs(_k,{id:"NavbarCon",children:[v.jsxs(Nk,{id:"NavbarLeftCon","data-isopen":e,children:[v.jsx(Ok,{to:"/",onClick:()=>t(!e),children:"Home"}),v.jsx(Il,{to:"/about",onClick:()=>t(!e),children:"About"}),v.jsx(Il,{to:"/work",onClick:()=>t(!e),children:"Work"}),v.jsx(Il,{to:"/contact",onClick:()=>t(!e),children:"Contact"})]}),v.jsx(Tk,{children:v.jsx(jk,{onClick:n,children:v.jsx(Ak,{icon:Dx})})}),v.jsxs(Ik,{children:[v.jsx(yd,{to:"https://www.linkedin.com/in/catalina-scheleff-caceres/",target:"_blank",rel:"noopener noreferrer",children:v.jsx(vd,{children:v.jsx(gd,{id:"Icon",src:Yh})})}),v.jsx(yd,{to:"https://github.com/CatalinaScheleff",target:"_blank",rel:"noopener noreferrer",children:v.jsx(vd,{children:v.jsx(gd,{id:"Icon",src:Rk})})})]})]})};function Lk(){return v.jsx(v.Fragment,{children:v.jsx(g1,{children:v.jsxs(Cy,{id:"BackgroundCon",children:[v.jsx(zk,{}),v.jsx(Ey,{id:"ContentCon",children:v.jsxs(c1,{children:[v.jsx(Mn,{path:"/",element:v.jsx(Ry,{})}),v.jsx(Mn,{path:"/work",element:v.jsx(Vx,{})}),v.jsx(Mn,{path:"/about",element:v.jsx(Jx,{})}),v.jsx(Mn,{path:"/certification",element:v.jsx(Pk,{})}),v.jsx(Mn,{path:"/contact",element:v.jsx(gk,{})})]})}),v.jsx(Oy,{})]})})})}Tl.createRoot(document.getElementById("root")).render(v.jsx(gt.StrictMode,{children:v.jsx(Lk,{})}));

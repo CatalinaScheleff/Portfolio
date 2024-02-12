@@ -110,6 +110,7 @@ transition: all 200ms ease-in-out;
 
 export const MenuA = styled.a`
 text-decoration: none;
+color: black;
 
 `;
 
