@@ -16,10 +16,10 @@ export const HomeTitleCon = styled.div`
 `;
 
 export const HomeTitle = styled.h1`
-  font-size: 6vw;
+  font-size: 7vw;
   color: #586f7c;
   @media (max-width: 700px) {
-    font-size: 6.8vw;
+    font-size: 6.5vw;
   }
 `;
 
