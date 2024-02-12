@@ -95,6 +95,7 @@ export const HamburgerButton = styled.button`
   height: 60px;
   @media (max-width: 700px) {
     display: block;
+    color: black;
   }
 `;
 

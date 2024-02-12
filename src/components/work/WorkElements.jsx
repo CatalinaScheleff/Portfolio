@@ -91,6 +91,7 @@ width: 100%;
 background-color: transparent;
 border: none;
 transition: all 200ms ease-in-out;
+color: black;
 
   &:hover {
     background-color: #04724d;

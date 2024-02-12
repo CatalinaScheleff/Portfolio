@@ -958,6 +958,7 @@ width: 100%;
 background-color: transparent;
 border: none;
 transition: all 200ms ease-in-out;
+color: black;
 
   &:hover {
     background-color: #04724d;
@@ -1379,6 +1380,7 @@ margin-left: 5vw;
   height: 60px;
   @media (max-width: 700px) {
     display: block;
+    color: black;
   }
 `,Ak=P(Pr)`
   font-size: 30px;
