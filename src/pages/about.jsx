@@ -33,8 +33,8 @@ export const About = () => {
             <br />
             <p>
               In addition to my technical proficiencies, I possess strong
-              written and verbal communication skills in English and Spanish. I thrive in
-              collaborative environments, while also demonstrating the
+              written and verbal communication skills in English and Spanish. I
+              thrive in collaborative environments, while also demonstrating the
               capability to manage projects independently.
             </p>
             <br />

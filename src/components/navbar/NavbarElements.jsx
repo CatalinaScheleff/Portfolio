@@ -3,25 +3,21 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const NavbarCon = styled.div`
-    /* background-color: #264653; */
-    /* background-color: #586f7c; */
-    background-color: black;
-
-    display: grid;
-    grid-template-columns: auto auto;
-    justify-content: space-between;
-`
+  background-color: black;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+`;
 
 export const NavbarLeftCon = styled.div`
-  /* background-color: lightgreen; */
   display: grid;
   place-items: center;
   grid-template-columns: auto auto auto auto auto;
   width: fit-content;
   margin-left: 5vw;
-  
+
   @media (max-width: 700px) {
-    display: ${(props) => (props['data-isopen'] ? "grid" : "none")};
+    display: ${(props) => (props["data-isopen"] ? "grid" : "none")};
     grid-template-columns: auto;
     width: 90%;
     position: absolute;
@@ -33,12 +29,12 @@ export const NavbarLeftCon = styled.div`
     border: 2px solid #264653;
     border-top: white;
     border-radius: 0 0 25px 25px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
 `;
 
 export const HomeLink = styled(Link)`
-text-decoration: none;
+  text-decoration: none;
   font-weight: bold;
   font-size: 1.5em;
   margin-right: 1vw;
@@ -61,7 +57,6 @@ export const ContentLink = styled(Link)`
 `;
 
 export const NavbarRightCon = styled.div`
-  /* background-color: blueviolet; */
   margin-right: 5vw;
   display: grid;
   grid-template-columns: auto auto;
@@ -82,13 +77,12 @@ export const NavbarIcon = styled.img`
   width: 80%;
 `;
 export const HamburgerCon = styled.div`
-display: none;
-margin-left: 5vw;
+  display: none;
+  margin-left: 5vw;
   @media (max-width: 700px) {
     display: grid;
-  place-items: center;
+    place-items: center;
   }
-
 `;
 export const HamburgerButton = styled.button`
   display: none;
@@ -106,5 +100,5 @@ export const HamburguerIcon = styled(FontAwesomeIcon)`
 `;
 
 export const IconLink = styled(Link)`
-  
+  text-decoration: none;
 `;

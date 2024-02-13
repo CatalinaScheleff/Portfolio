@@ -1,27 +1,27 @@
 import styled from "styled-components";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 
 export const WorkCon = styled.div`
-  /* background-color: green; */
   min-height: 90%;
   width: 90vw;
   display: grid;
-  grid-template-areas: 'title title'
-                       'menu content';
+  grid-template-areas:
+    "title title"
+    "menu content";
   grid-template-rows: auto auto;
   grid-template-columns: 25%;
   padding: 15px;
   margin: 20px 0 20px;
   @media (max-width: 700px) {
-    grid-template-areas: 'title'
-                         'content';
+    grid-template-areas:
+      "title"
+      "content";
     grid-template-columns: 100%;
   }
 `;
 
 export const WorkTitleCon = styled.div`
-  /* background-color: brown; */
   grid-area: title;
   display: grid;
   grid-template-columns: auto auto;
@@ -48,10 +48,9 @@ export const CaretDown = styled(FontAwesomeIcon)`
 `;
 
 export const WorkMenuCon = styled.div`
-/* background-color: orange; */
-grid-area: menu;
-position: relative;
-`; 
+  grid-area: menu;
+  position: relative;
+`;
 
 export const MenuCon = styled.div`
   background-color: #f4f4f9;
@@ -63,7 +62,7 @@ export const MenuCon = styled.div`
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   @media (max-width: 700px) {
-  display: none;
+    display: none;
   }
 `;
 
@@ -76,7 +75,7 @@ export const CaretDownMenuCon = styled.div`
     grid-template-columns: auto;
     position: absolute;
     top: 160px;
-    right: 5vw; 
+    right: 5vw;
     z-index: 1;
     padding: 20px 0 20px;
     width: 62vw;
@@ -87,40 +86,38 @@ export const CaretDownMenuCon = styled.div`
 `;
 
 export const MenuButton = styled.button`
-text-align: left;
-height: 4vw;
-font-size: 1vw;
-padding: 0 15px;
-width: 100%;
-background-color: transparent;
-border: none;
-transition: all 200ms ease-in-out;
-color: black;
+  text-align: left;
+  height: 4vw;
+  font-size: 1vw;
+  padding: 0 15px;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  transition: all 200ms ease-in-out;
+  color: black;
 
   &:hover {
     background-color: #04724d;
     color: white;
   }
-  &:active  {
+  &:active {
     background-color: #023927;
     color: white;
   }
-@media (max-width: 700px) {
-  text-align: end;
-  padding-right: 15px;
-  height: 40px;
-  font-size: 3.5vw;
-}
+  @media (max-width: 700px) {
+    text-align: end;
+    padding-right: 15px;
+    height: 40px;
+    font-size: 3.5vw;
+  }
 `;
 
 export const MenuA = styled.a`
-text-decoration: none;
-color: black;
-
+  text-decoration: none;
+  color: black;
 `;
 
 export const WorkContentCon = styled.div`
-  /* background-color: purple; */
   grid-area: content;
   display: grid;
   place-items: center;
@@ -132,7 +129,7 @@ export const WorkContent = styled.div`
   width: 90%;
   height: fit-content;
   padding: 30px;
-  border-radius: 25px;;
+  border-radius: 25px;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   @media (max-width: 700px) {

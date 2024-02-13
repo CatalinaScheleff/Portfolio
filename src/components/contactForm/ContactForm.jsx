@@ -10,7 +10,7 @@ import {
   InputNameCon,
   MessageCon,
   MessageInputCon,
-  NameCon
+  NameCon,
 } from "./ContactFormElements";
 
 export const ContactForm = () => {
@@ -30,8 +30,12 @@ export const ContactForm = () => {
           <InputMessage id="InputMessage" type="text" name="message" required />
         </MessageInputCon>
         <ButtonsCon id="ButtonsCon">
-          <Button id="Button1" type="submit">Send</Button>
-          <Button id="Button" type="reset">Reset</Button>
+          <Button id="Button1" type="submit">
+            Send
+          </Button>
+          <Button id="Button" type="reset">
+            Reset
+          </Button>
         </ButtonsCon>
       </FormCon>
     </form>

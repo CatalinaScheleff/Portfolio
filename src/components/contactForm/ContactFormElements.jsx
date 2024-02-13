@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const FormCon = styled.div`
-    background-color: #b8dbd9;
+  background-color: #b8dbd9;
   width: 600px;
   height: 350px;
   display: grid;
@@ -15,15 +15,14 @@ export const FormCon = styled.div`
   grid-template-rows: 15% 20% 15% auto 15%;
   padding: 20px;
   box-sizing: border-box;
-  /* border: 2px solid #264653; */
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   @media (max-width: 700px) {
     width: 80vw;
     height: 600px;
     grid-template-areas:
-      "name" 
-      "inputname" 
+      "name"
+      "inputname"
       "email"
       "inputemail"
       "message"
@@ -37,7 +36,6 @@ export const FormCon = styled.div`
 `;
 
 export const NameCon = styled.div`
-  /* background-color: #b30925; */
   grid-area: name;
   font-size: 2em;
   @media (max-width: 700px) {
@@ -46,7 +44,6 @@ export const NameCon = styled.div`
 `;
 
 export const EmailCon = styled.div`
-  /* background-color: blue; */
   grid-area: email;
   font-size: 2em;
   @media (max-width: 700px) {
@@ -55,9 +52,7 @@ export const EmailCon = styled.div`
 `;
 
 export const InputNameCon = styled.div`
-  /* background-color: pink; */
   grid-area: inputname;
-
 `;
 
 export const InputName = styled.input`
@@ -69,11 +64,9 @@ export const InputName = styled.input`
     width: 95%;
   }
 `;
- 
+
 export const InputEmailCon = styled.div`
-  /* background-color: #179427; */
   grid-area: inputemail;
- 
 `;
 
 export const InputEmail = styled.input`
@@ -87,7 +80,6 @@ export const InputEmail = styled.input`
 `;
 
 export const MessageCon = styled.div`
-  /* background-color: blue; */
   grid-area: message;
   font-size: 2em;
   @media (max-width: 700px) {
@@ -115,7 +107,6 @@ export const InputMessage = styled.textarea`
 `;
 
 export const ButtonsCon = styled.div`
-/* background-color: brown; */
   grid-area: button;
   display: grid;
   grid-template-columns: auto auto;
@@ -124,24 +115,20 @@ export const ButtonsCon = styled.div`
 `;
 
 export const Button = styled.button`
-width: 100px;
-background-color: #04724d;
-border-radius: 3px;
-border: 1px solid #264653;
-box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
-font-size: 15px;
-padding: 8px .8em;
-color: #f4f4f9;
-transition: all 200ms ease-in-out;
+  width: 100px;
+  background-color: #04724d;
+  border-radius: 3px;
+  border: 1px solid #264653;
+  box-shadow: rgba(255, 255, 255, 0.7) 0 1px 0 0 inset;
+  font-size: 15px;
+  padding: 8px 0.8em;
+  color: #f4f4f9;
+  transition: all 200ms ease-in-out;
 
   &:hover {
     background-color: #023927;
     color: #f4f4f9;
   }
-
-  /* &:focus {
-    box-shadow: 0 0 0 4px rgba(0, 149, 255, 0.15);
-  } */
 
   &:active {
     background-color: #7cb3a3;
@@ -149,4 +136,3 @@ transition: all 200ms ease-in-out;
     color: black;
   }
 `;
-

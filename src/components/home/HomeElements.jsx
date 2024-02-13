@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const HomeCon = styled.div`
-  /* background-color: green; */
   min-height: 90%;
   width: 90vw;
   display: grid;
@@ -9,7 +8,6 @@ export const HomeCon = styled.div`
 `;
 
 export const HomeTitleCon = styled.div`
-  /* background-color: brown; */
   display: grid;
   place-items: center;
   padding: 30px 0 27px 0;
@@ -38,4 +36,3 @@ export const HomeTextCon = styled.div`
     width: 70vw;
   }
 `;
-
