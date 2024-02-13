@@ -40,7 +40,7 @@ export const AboutText = styled.div`
   width: 70%;
   height: fit-content;
   text-align: center;
-  padding: 4%;
+  padding: 3%;
   min-width: 250px;
   border-radius: 25px;
   font-size: 1em;

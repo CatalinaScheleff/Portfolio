@@ -1040,7 +1040,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   width: 70%;
   height: fit-content;
   text-align: center;
-  padding: 4%;
+  padding: 3%;
   min-width: 250px;
   border-radius: 25px;
   font-size: 1em;
