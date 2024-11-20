@@ -123,7 +123,7 @@ export const Work = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                https://prod.dowkawkcqzyzh.amplifyapp.com Temporarily unavailable
+                https://prod.dowkawkcqzyzh.amplifyapp.com (Temporarily unavailable 🔨)
               </ContentLink>
             </ContentTextCon>
           </WorkContent>
