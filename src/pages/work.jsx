@@ -119,11 +119,11 @@ export const Work = () => {
               </ContentLink>
               <p>Website:</p>
               <ContentLink
-                to={"https://prod.dowkawkcqzyzh.amplifyapp.com"}
+                to={""}
                 target="_blank"
                 rel="noreferrer"
               >
-                https://prod.dowkawkcqzyzh.amplifyapp.com
+                https://prod.dowkawkcqzyzh.amplifyapp.com Temporarily unavailable
               </ContentLink>
             </ContentTextCon>
           </WorkContent>
