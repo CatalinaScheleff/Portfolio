@@ -118,13 +118,9 @@ export const Work = () => {
                 https://github.com/CatalinaScheleff/Inspirational-Quote-Generator-1
               </ContentLink>
               <p>Website:</p>
-              <ContentLink
-                to={""}
-                target="_blank"
-                rel="noreferrer"
-              >
+              <ContentTextCon>
                 https://prod.dowkawkcqzyzh.amplifyapp.com (Temporarily unavailable 🔨)
-              </ContentLink>
+              </ContentTextCon>
             </ContentTextCon>
           </WorkContent>
 
